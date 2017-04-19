@@ -1,0 +1,10 @@
+ <native>
+	<!-- Sys APIs-->
+	<function name = "print"/>
+	<function name = "setTimeout"/>
+	<function name = "setInterval"/>
+	<function name = "clearTimeout"/>
+	<function name = "clearInterval"/>
+	<function name = "require"/>
+	<function name = "delay"/>
+</native>

@@ -27,7 +27,7 @@ function key_cb(name){
 		fs.open("testabc.txt", "rw", fs_write_cb);
 	}
 	if(name == "key1"){
-		read a file
+		//read a file
 		fs.open("testabc.txt", "rw", fs_read_cb);
 	}
 	if(name == "wkup"){

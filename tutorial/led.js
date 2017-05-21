@@ -3,10 +3,10 @@ var flag = 0;
 
 function led_flash(){
 if(flag == 0){
-	led.turnOn("led0"); //打开led0
+	led.turnOn("led1"); //打开led0
 	flag= 1;
 	} else {
-		led.turnOff("led0"); //关闭led0
+		led.turnOff("led1"); //关闭led0
 		flag = 0;
 	}
 }
